@@ -10,3 +10,38 @@ h1 {
     font-size: 18px;
     color: lightslategray;
 }
+.cont_photos {
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 70px;
+
+}
+.cont_photos1 {
+    display: inline-flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.cont_photos2 {
+    display: inline-flex;
+    gap: 30px;
+}
+.templatez {
+    width: 250px;
+    height: 167px;
+    margin-bottom: 10px;
+}
+.description {
+    margin: 0px;
+    line-height: 1.5;
+    text-align: left;
+}
+.descrip {
+    text-decoration: none;
+    color: blue;
+}
+.descript {
+    text-decoration: none;
+    color:#36454F;
+    font: bolder;
+    font-size: 18px;
+}
