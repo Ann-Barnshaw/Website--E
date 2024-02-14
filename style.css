@@ -1,6 +1,10 @@
 body {
     background-color:#F2F2F2;
 }
+.cont_a {
+    text-align: center;
+    margin-top: 200px;
+}
 h1 {
     font-size: 50px;
     margin-bottom: 30px;
