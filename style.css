@@ -24,32 +24,54 @@ nav {
 
 .cont_n1 {
     width: 165px;
+    height: 38px;
+}
+.cont_n2 {
+    width: 560px;
+    height: 40px;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
 .n1_btn {
-    width: 400px;
+    width: 550px;
     display: flex;
     padding: 0px;
+    height: 38px;
+    background-color: white;
+    text-align: left;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    
 
 }
-
-.search_icon {
-    width: 43px;
-    height: 41px;
-
-}
-
 .items {
-    background-color: lightgray;
-    width: 110px;
+    width: 108px;
+    height: 34px;
+    padding-left: 8px;
 }
 
 .search {
-    width: 350px;
+    width: 450px;
+    height: 34px;
+    padding-left: 8px;
+    border-left: 1px solid lightgrey;
+    justify-content: left;
 }
+#search_input {
+    border: none;
+    margin-top: 7px;
+    width: 360px;
+    height: 20px;
+    
+} 
+.search_image {
+    width: 40px;
+}
+.search_icon {
+    width: 35px;
+    height: 35px;
 
-.im_search {
-    width: 20px;
 }
 
 .license {
@@ -62,7 +84,8 @@ nav {
 
 .unlimited {
     width: 190px;
-    margin: 0 auto;
+    text-align: center;
+    height: 38px;
 }
 
 .unltd_btn {
@@ -81,6 +104,7 @@ nav {
 .sign_in {
     width: 100px;
     text-align: center;
+    height: 38px;
 }
 
 .container1 {
@@ -88,6 +112,7 @@ nav {
     margin: 0 auto;
     justify-content: space-around;
     font-size: 12px;
+    padding-top: 20px;
 }
 
 .cont_a {
