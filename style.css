@@ -53,7 +53,14 @@ nav {
     width: 100px;
 }
 .unlimited {
-    width: 240px;
+    width: 230px;
+}
+.unltd_btn {
+    background-color: red;
+    padding: 10px 40px;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
 }
 
 .cont_a {
