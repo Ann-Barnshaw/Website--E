@@ -1,54 +1,119 @@
 body {
-    background-color:#F2F2F2;
+    background-color: #F2F2F2;
 }
+
+nav {
+    background-color: white;
+}
+
+.envato_logo {
+    width: 15px;
+    height: 20px;
+}
+
+.envato-head {
+    font-size: 22px;
+}
+
+.cont_n1 {
+    width: 190px;
+}
+
+.n1_btn {
+    width: 650px;
+    display: flex;
+    padding: 0px;
+    height: 45px;
+}
+
+.search_icon {
+    width: 43px;
+    height: 41px;
+
+}
+
+.items {
+    background-color: lightgray;
+    width: 120px;
+}
+
+.search {
+    width: 490px;
+}
+
+.im_search {
+    width: 40px;
+}
+
+.license {
+    width: 100px;
+}
+
+.pricing {
+    width: 100px;
+}
+.unlimited {
+    width: 240px;
+}
+
 .cont_a {
     text-align: center;
     margin-top: 200px;
 }
+
 h1 {
     font-size: 50px;
     margin-bottom: 30px;
 }
+
 .subhead {
     margin-bottom: 80px;
     font-size: 18px;
     color: lightslategray;
 }
+
 .cont_photos {
     margin: 0 auto;
     justify-content: center;
     margin-bottom: 70px;
 
 }
+
 .cont_photos1 {
     display: inline-flex;
     gap: 30px;
     margin-bottom: 30px;
 }
+
 .cont_photos2 {
     display: inline-flex;
     gap: 30px;
 }
+
 .templatez {
     width: 250px;
     height: 167px;
     margin-bottom: 10px;
 }
+
 .description {
     margin: 0px;
     line-height: 1.5;
     text-align: left;
 }
+
 .descrip {
     text-decoration: none;
     color: blue;
 }
+
 .descript {
     text-decoration: none;
-    color:#36454F;
+    color: #36454F;
     font: bolder;
     font-size: 18px;
 }
+
 .bt-press {
     width: 200px;
     height: 50px;
@@ -58,6 +123,7 @@ h1 {
     color: white;
     border: 2px solid #e75480;
 }
+
 .press {
     color: white;
     text-decoration: none;
