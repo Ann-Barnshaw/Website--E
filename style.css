@@ -26,6 +26,7 @@ nav {
     width: 165px;
     height: 38px;
 }
+
 .cont_n2 {
     width: 560px;
     height: 40px;
@@ -42,9 +43,10 @@ nav {
     text-align: left;
     border: 1px solid lightgrey;
     border-radius: 8px;
-    
+
 
 }
+
 .items {
     width: 108px;
     height: 34px;
@@ -58,16 +60,25 @@ nav {
     border-left: 1px solid lightgrey;
     justify-content: left;
 }
-#search_input {
+
+.search_input {
     border: none;
     margin-top: 7px;
     width: 360px;
     height: 20px;
-    
-} 
+
+}
+.search_input::placeholder {
+    border: none;
+}
+input:focus {
+    outline: none;
+}
+
 .search_image {
     width: 40px;
 }
+
 .search_icon {
     width: 35px;
     height: 35px;
