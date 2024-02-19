@@ -379,6 +379,7 @@ h1 {
     border: 1px solid white; 
     background-color: white;
     height: 315px;
+    border-radius: 10px;
 }
 .cont_c {
     padding: 80px 0px;
@@ -410,7 +411,7 @@ h1 {
 }
 .cont_ccaimg4 {
     width: 166px;
-    height: 109px;
+    height: 110px;
     margin: 0 auto;
     justify-content: center;
 }
@@ -427,7 +428,7 @@ h1 {
     width: 166px;
 }
 .buildings-contc {
-    height: 109px;
+    height: 110px;
     width: 166px;
 }
 .contc-btn {
