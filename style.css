@@ -374,17 +374,17 @@ h1 {
 .cont_cc {
     margin: 0 auto;
     justify-content: center;
-    width: 290px;
+    width: 280px;
     margin: 0px;
     border: 1px solid white; 
     background-color: white;
-    height: 298px;
+    height: 315px;
 }
 .cont_c {
     padding: 80px 0px;
 }
 .cont_cca {
-    width: 240px;
+    width: 180px;
     margin: 0 auto;
     justify-content: center;
     margin-bottom: 95px;
@@ -404,7 +404,7 @@ h1 {
 }
 .cont_ccaimg3 {
     width: 166px;
-    height: 94px;
+    height: 75px;
     margin: 0 auto;
     justify-content: center;
 }
@@ -423,10 +423,16 @@ h1 {
     width: 166px;
 }
 .teams-contc {
-    height: 94px;
+    height: 75px;
     width: 166px;
 }
 .buildings-contc {
     height: 109px;
     width: 166px;
+}
+.contc-btn {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 80px;
 }
