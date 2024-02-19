@@ -68,7 +68,7 @@ nav {
 }
 
 .search {
-    width: 500px;
+    width: 535px;
     height: 36px;
     padding-left: 8px;
     border-left: 1px solid lightgrey;
@@ -151,7 +151,7 @@ flex-direction: row;
 text-align: center;
 justify-content: center;
 color:#505050;
-gap: 30px;
+gap: 85px;
 }
 .cont2_a {
     display: flex;
@@ -165,7 +165,7 @@ gap: 30px;
     padding: 10px;
 }
 .cont2_ac {
-    width: 50px;
+    width: 45px;
     padding: 10px;
 }
 .cont2_ad {
@@ -177,11 +177,11 @@ gap: 30px;
     padding: 10px;
 }
 .cont2_af {
-    width: 70px;
+    width: 60px;
     padding: 10px;
 }
 .cont2_ag {
-    width: 160px;
+    width: 155px;
     padding: 10px;
 }
 .cont2_ah {
@@ -189,19 +189,19 @@ gap: 30px;
     padding: 10px;
 }
 .cont2_ai {
-    width: 55px;
+    width: 45px;
     padding: 10px;
 }
 .cont2_aj {
-    width: 90px;
+    width: 80px;
     padding: 10px;
 }
 .cont2_ak {
-    width: 120px;
+    width: 100px;
     padding: 10px;
 }
 .cont2_al {
-    width: 50px;
+    width: 45px;
     padding: 10px;
 }
 .learn-na {
@@ -216,6 +216,9 @@ gap: 30px;
     gap: 30px;
     font-size: 12px;
     padding-top: 20px;
+}
+.header {
+    margin-top: 100px;
 }
 
 .cont_a {
