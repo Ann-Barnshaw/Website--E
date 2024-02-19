@@ -378,6 +378,7 @@ h1 {
     margin: 0px;
     border: 1px solid white; 
     background-color: white;
+    height: 298px;
 }
 .cont_c {
     padding: 80px 0px;
@@ -389,25 +390,43 @@ h1 {
     margin-bottom: 95px;
     
 }
-.cont_ccaimg {
+.cont_ccaimg1 {
     width: 166px;
-    height: 87px;
+    height: 93px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.cont_ccaimg2 {
+    width: 166px;
+    height: 108px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.cont_ccaimg3 {
+    width: 166px;
+    height: 94px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.cont_ccaimg4 {
+    width: 166px;
+    height: 109px;
     margin: 0 auto;
     justify-content: center;
 }
 .individual-contc {
-    height: 90px;
+    height: 93px;
     width: 166px;
 }
 .students-contc {
-    height: 100px;
+    height: 108px;
     width: 166px;
 }
 .teams-contc {
-    height: 89px;
+    height: 94px;
     width: 166px;
 }
 .buildings-contc {
-    height: 104px;
+    height: 109px;
     width: 166px;
 }
