@@ -20,8 +20,7 @@ nav {
     top: 0;
     position: fixed;
     width: 100%;
-    /* height: 150px; */
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px transparent lightgrey;
 }
 
 .envat-1 {
@@ -74,6 +73,12 @@ nav {
     padding-left: 8px;
     background-color: #F8F8F8;
 }
+.items-p {
+    width: 80px;
+    text-align: center;
+    margin: 10px;
+    line-height: 1.5;
+}
 
 .search {
     width: 535px;
@@ -108,15 +113,24 @@ input:focus {
     height: 35px;
 
 }
+.license-pricing-ul {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    height: 32px;
+    width: 132px;
+    
 
-.license {
-    width: 60px;
 }
-
-.pricing {
+.li-pr {
     width: 60px;
-}
+    list-style: none;
+    padding: 8px;
 
+}
+.li-pr a {
+    text-decoration: none;
+}
 .unlimited {
     width: 240px;
     text-align: center;
@@ -170,7 +184,7 @@ input:focus {
 .cont2_a {
     display: flex;
 }
-ul {
+.cont2-a-ul {
     display: flex;
     align-items: center;
     height: 65px;
@@ -179,46 +193,58 @@ ul {
 }
 li {
     list-style: none;
-    padding: 23px 8px;
+    
 }
 a {
     text-decoration: none; 
 }
 .stock-vid {
     width: 100px;
+    padding: 23px 8px;
 }
 .vid-temp {
     width: 120px;
+    padding: 23px 8px;
 }
 .music {
     width: 50px;
+    padding: 23px 8px;
 }
 .sound-effects {
     width: 100px;
+    padding: 23px 8px;
 }
 .graphics-temps {
     width: 135px;
+    padding: 23px 8px;
 }
 .graphics {
     width: 80px;
+    padding: 23px 8px;
 }
 .present-temps {
     width: 155px;
+    padding: 23px 8px;
 }
 .photos {
     width: 60px;
+    padding: 23px 8px;
 }
 .fonts {
     width: 50px;
+    padding: 23px 8px;
 }
 .add-ons {
     width: 80px;
+    padding: 23px 8px;
 }
 .web-temp {
     width: 120px;
+    padding: 23px 8px;
 }
 .mo-re {
     width: 55px;
+    padding: 23px 8px;
 }
 .learn-na {
     width: 60px;
@@ -231,7 +257,7 @@ a {
     margin: 0 auto;
     justify-content: center;
     gap: 30px;
-    font-size: 12px;
+    font-size: 14px;
     padding-top: 20px;
 }
 
