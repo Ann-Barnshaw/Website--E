@@ -1,10 +1,17 @@
-body {}
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+
+}
 
 .wrapper {
     width: 100%;
     margin: 0 auto;
     justify-content: center;
     background-color: #F2F2F2;
+
 }
 
 nav {
@@ -13,7 +20,7 @@ nav {
     top: 0;
     position: fixed;
     width: 100%;
-    height: 150px;
+    /* height: 150px; */
     border-bottom: 1px solid lightgrey;
 }
 
@@ -163,67 +170,56 @@ input:focus {
 .cont2_a {
     display: flex;
 }
-
-.cont2_aa {
-    width: 80px;
-    padding: 10px;
+ul {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    margin: 0;
+    padding: 0;
 }
-
-.cont2_ab {
-    width: 110px;
-    padding: 10px;
+li {
+    list-style: none;
+    padding: 23px 8px;
 }
-
-.cont2_ac {
-    width: 45px;
-    padding: 10px;
+a {
+    text-decoration: none; 
 }
-
-.cont2_ad {
+.stock-vid {
     width: 100px;
-    padding: 10px;
 }
-
-.cont2_ae {
-    width: 130px;
-    padding: 10px;
+.vid-temp {
+    width: 120px;
 }
-
-.cont2_af {
-    width: 60px;
-    padding: 10px;
+.music {
+    width: 50px;
 }
-
-.cont2_ag {
+.sound-effects {
+    width: 100px;
+}
+.graphics-temps {
+    width: 135px;
+}
+.graphics {
+    width: 80px;
+}
+.present-temps {
     width: 155px;
-    padding: 10px;
 }
-
-.cont2_ah {
-    width: 55px;
-    padding: 10px;
+.photos {
+    width: 60px;
 }
-
-.cont2_ai {
-    width: 45px;
-    padding: 10px;
+.fonts {
+    width: 50px;
 }
-
-.cont2_aj {
+.add-ons {
     width: 80px;
-    padding: 10px;
 }
-
-.cont2_ak {
-    width: 100px;
-    padding: 10px;
+.web-temp {
+    width: 120px;
 }
-
-.cont2_al {
-    width: 45px;
-    padding: 10px;
+.mo-re {
+    width: 55px;
 }
-
 .learn-na {
     width: 60px;
     text-align: center;
@@ -245,7 +241,7 @@ input:focus {
 
 .cont_a {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 135px;
 }
 
 h1 {
@@ -371,31 +367,39 @@ h1 {
     justify-content: center;
     gap: 30px;
 }
+
 .cont_cc {
     margin: 0 auto;
     justify-content: center;
-    width: 280px;
+    width: 260px;
     margin: 0px;
     border: 1px solid white; 
     background-color: white;
     height: 315px;
     border-radius: 10px;
+    position: relative;
 }
 .cont_c {
     padding: 80px 0px;
+    width: 1140px;
+    margin: 0 auto;
+    justify-content: center;
 }
 .cont_cca {
     width: 180px;
     margin: 0 auto;
     justify-content: center;
-    margin-bottom: 95px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 60px;
     
 }
 .cont_ccaimg1 {
     width: 166px;
     height: 93px;
-    margin: 0 auto;
-    justify-content: center;
+    position: absolute;
+    /* right: 50px; */
+    align-items: center;
 }
 .cont_ccaimg2 {
     width: 166px;
