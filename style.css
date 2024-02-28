@@ -107,22 +107,28 @@ input:focus {
     height: 35px;
 
 }
-.license-pricing-ul {
+.license-pricing ul {
     display: flex;
     gap: 15px;
     align-items: center;
-    height: 32px;
-    width: 145px;
+    height: 40px;
+    width: 160px;
 }
-.li-pr {
+.license-pricing li {
     width: 60px;
     list-style: none;
     padding: 8px;
 
 }
-.li-pr a {
+.license-pricing a {
     text-decoration: none;
     color: grey;
+}
+.license-pricing a:hover {
+    border: 1px solid lightgrey;
+    padding: 8px;
+    background-color: lightgrey;
+    border-radius: 8px;
 }
 .unlimited {
     width: 255px;
@@ -143,11 +149,25 @@ input:focus {
     width: 255px;
     border-radius: 10px;
 }
-.sign_in {
+.sign_in ul {
     display: flex;
 }
 .sign_in li {
     list-style: none;
+}
+.sign_in a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 500;
+}
+.sign_in ul:hover {
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid lightgrey;
+    padding: 8px;
+    background-color: lightgrey;
+    border-radius: 8px;
+    align-items: center;
 }
 .signin-avatar {
     width: 25px;
@@ -168,11 +188,6 @@ input:focus {
     height: 20px;
     font-size: 14px;
     margin-top: 15px;
-}
-.sign-link {
-    text-decoration: none;
-    color: gray;
-    font-weight: 500;
 }
 .container2 {
     display: flex;
