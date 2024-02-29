@@ -202,9 +202,10 @@ input:focus {
 .cont2_a ul {
     display: flex;
     align-items: center;
-    height: 65px;
+    /* height: 65px; */
     margin: 0;
     padding: 0;
+    height: auto;
 }
 .cont2_a li {
     list-style: none;
@@ -213,7 +214,6 @@ input:focus {
     text-decoration: none; 
     color: grey;
 }
-
 .cont2_a li a:hover {
     padding-bottom: 20px;
     border-bottom: 2px solid blue;
@@ -299,6 +299,77 @@ input:focus {
     border-bottom: 2px solid blue;
     font-size: 16.5px;
     color: #2E3033; 
+}
+.submenu-cont2a1 {
+    display: none;
+}
+.cont2_a li:hover .submenu-cont2a1 {
+    display: block;
+    position: absolute;
+    margin-top: 23px;
+    width: 190px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 6px;
+    /* height: 110%; */
+}
+.submenu-cont2a1 ul {
+    display: block;
+}
+.submenu-cont2a1 li {
+    list-style: none;
+    margin: 25px 10px;
+}
+.cont2_a li:hover .submenu-cont2a1 ul li a:hover {
+    border-bottom: none;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    padding: 0;
+    padding: 8px;
+    background-color: lightgray;
+}
+.submenu-cont2a2 {
+    display: none;
+    height: auto;
+    padding: 0;
+}
+.cont2_a li:hover .submenu-cont2a2 {
+    display: block;
+    position: absolute;
+    margin-top: 23px;
+    width: 280px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 6px;
+    height: auto;
+}
+.cont2_a li:hover .submenu-cont2a2 ul {
+    display: block;
+    padding: 0;
+    margin: 0;
+    text-align: start;
+}
+.cont2_a li:hover .submenu-cont2a2 li {
+    list-style: none;
+    Padding: 15px 20px;
+}
+.cont2_a li:hover .submenu-cont2a2 ul li a:hover {
+    border-bottom: none;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    padding: 8px 6px;
+    background-color: lightgray;
+}
+.submenu-cont2a2 ul li a:hover .find:hover {
+    text-decoration: none;
+    border-bottom: none;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    background-color: white;
+}
+.submenu-cont2a2 li:hover {
+    cursor: pointer;
 }
 .header {
     margin-top: 100px;
