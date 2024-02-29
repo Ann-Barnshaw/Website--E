@@ -482,6 +482,38 @@ input:focus {
     padding: 8px 6px;
     background-color: lightgray;
 }
+.submenu-cont2a5 {
+    display: none;
+}
+.cont2_a li:hover .submenu-cont2a5 {
+    display: block;
+    position: absolute;
+    margin-top: 23px;
+    width: 200px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 6px;
+}
+.cont2_a li:hover .submenu-cont2a5 ul {
+    text-align: left;
+    display: block;
+}
+.cont2_a li:hover .submenu-cont2a5 ul li {
+    list-style: none;
+    margin: 25px 18px;
+}
+.cont2_a li:hover .submenu-cont2a5 li a:hover {
+    text-decoration: none;
+    border-bottom: none;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    padding: 8px 6px;
+    background-color: lightgray;
+}
+.submenu-cont2a6 {
+    display: none;
+}
+
 .header {
     margin-top: 100px;
 }
