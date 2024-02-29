@@ -513,7 +513,33 @@ input:focus {
 .submenu-cont2a6 {
     display: none;
 }
-
+.cont2_a li:hover .submenu-cont2a6 {
+    display: flex;
+    flex: 60% 40%;
+    gap: 10px;
+    position: absolute;
+    margin-top: 23px;
+    width: 280px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 6px;
+}
+.cont2_a li:hover .submenu-cont2a6 ul {
+    display: block;
+    text-align: left;
+}
+.cont2_a li:hover .submenu-cont2a6 ul li {
+    list-style: none;
+    margin: 25px 25px;
+}
+.cont2_a li:hover .submenu-cont2a6 ul li a:hover {
+    text-decoration: none;
+    border-bottom: none;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    /* padding: 8px 6px; */
+    background-color: lightgray;
+}
 .header {
     margin-top: 100px;
 }
