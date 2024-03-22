@@ -729,23 +729,18 @@ input:focus {
     padding: 8px 6px;
     background-color: #f6f6f6fa;
 }
-
 .submenu-container2a11 {
     display: none;
 }
-
 .submenu-container2a11_a {
     display: none;
 }
-
 .submenu-container2a11_b {
     display: none;
 }
-
 .submenu-container2a11_c {
     display: none;
 }
-
 .submenu-container2a11_d {
     display: none;
 }
@@ -757,10 +752,10 @@ input:focus {
 .container2_a li:hover .submenu-container2a11 {
     display: block;
     position: absolute;
-    left: 55rem;
+    left: 57rem;
     margin-top: 23px;
-    width: 540px;
-    height: 320px;
+    width: 450px;
+    height: 380px;
     border: 2px solid white;
     background-color: white;
     border-radius: 6px;
@@ -771,7 +766,7 @@ input:focus {
     text-align: left;
     margin: 20px 15px;
     width: 180px;
-    height: 300px;
+    height: 360px;
 }
 .container2_a li:hover .submenu-container2a11 .containerul li {
     padding: 8px;
@@ -785,9 +780,10 @@ input:focus {
     left: 180px;
     top: 25px;
     height: auto;
-    width: 350px;
+    width: 225px;
     margin-left: 25px;
 }
+
 /* .container2_a li:hover .submenu-container2a11 .submenu-container2a11_a {
     display: flex;
     position: absolute;
@@ -796,19 +792,22 @@ input:focus {
 } */
 .cmstemplates:hover .submenu-container2a11_aa {
     display: flex;
-    padding: 0;
+    font-size: 16px;
+    gap: 20px;
 }
 .submenu-container2a11_aa .first-ul li {
-    width: 165px;
-    padding: 8px 2px;
+    width: 95px;
+    padding: 20px 10px;
+    margin: 15px 0px;
 }
 .submenu-container2a11_aa .first-ul {
     display: block;
     text-align: left;
 }
 .submenu-container2a11_aa .second-ul li{
-    width: 80px;
-    padding: 8px 2px;
+    width: 75px;
+    padding: 20px 10px;
+    margin: 15px 0px;
 }
 .submenu-container2a11_aa .second-ul{
     display: block;
